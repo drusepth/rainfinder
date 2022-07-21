@@ -101,12 +101,16 @@ min_latitude.step(max_latitude, latitude_step) do |latitude|
       rain = rainy_forecasts(latitude, longitude)
       
     rescue RestClient::InternalServerError
-      puts "Hit what is probably a rate limit... retrying in 5!"
+      # puts "Hit what is probably a rate limit... retrying in 5!"
       sleep 5
       retry
       
     rescue RestClient::NotFound
       # puts "Probably hit one of those Canadian corner cases or lost our bad internet"
+      # binding.pry
+      
+    rescue RestClient::ServiceUnavailable
+      # puts "who knows anymore"
       # binding.pry
 
     else
