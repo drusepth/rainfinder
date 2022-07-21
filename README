@@ -1,6 +1,6 @@
 Example output
 ```
-$ ruby snowfinder.rb 
+$ ruby rainfinder.rb 
 .........................................................................................................
 Writing cache to weather-2022-07-20.cache...
 CITIES WITHIN 900 MI WITH RAIN THIS WEEK
