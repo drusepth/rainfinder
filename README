@@ -1,0 +1,68 @@
+Example output
+```
+$ ruby snowfinder.rb 
+.........................................................................................................
+Writing cache to weather-2022-07-20.cache...
+CITIES WITHIN 900 MI WITH RAIN THIS WEEK
+------------------------------
+Cora, WY
+* Tuesday: Sunny then Slight Chance Rain Showers
+
+Tetonia, ID
+* Friday: Sunny then Slight Chance Rain Showers
+* Tuesday: Sunny then Slight Chance Rain Showers
+
+Dubois, WY
+* Sunday: Sunny then Slight Chance Rain Showers
+* Monday: Sunny then Slight Chance Rain Showers
+
+Virginia City, MT
+* Friday: Sunny then Slight Chance Rain Showers
+
+Gardiner, MT
+* Friday: Sunny then Slight Chance Showers And Thunderstorms
+
+Anaconda-Deer Lodge County, MT
+* Friday: Sunny then Slight Chance Light Rain
+
+Cardwell, MT
+* Friday: Sunny then Slight Chance Rain Showers
+
+Sedan, MT
+* Sunday: Sunny then Slight Chance Rain Showers
+
+Riverbend, MT
+* Friday Night: Slight Chance Light Rain then Mostly Clear
+
+Evaro, MT
+* Friday: Sunny then Slight Chance Light Rain
+
+Ovando, MT
+* Friday: Sunny then Slight Chance Light Rain
+
+Craig, MT
+* Monday Night: Slight Chance Rain Showers then Partly Cloudy
+
+Neihart, MT
+* Sunday Night: Slight Chance Rain Showers then Mostly Clear
+
+Heron, MT
+* Friday: Slight Chance Showers And Thunderstorms then Slight Chance Light Rain
+
+Happys Inn, MT
+* Friday: Slight Chance Showers And Thunderstorms then Slight Chance Light Rain
+
+Woods Bay, MT
+* Friday: Slight Chance Showers And Thunderstorms then Slight Chance Light Rain
+
+Brady, MT
+* Saturday: Slight Chance Rain Showers
+
+Carter, MT
+* Saturday: Slight Chance Rain Showers then Mostly Sunny
+* Sunday Night: Slight Chance Rain Showers then Partly Cloudy
+
+Big Sandy, MT
+* Saturday: Slight Chance Rain Showers
+
+```
